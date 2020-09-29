@@ -1,0 +1,9 @@
+.body {
+    background-color: rgba(136, 114, 187, 0.493);
+    max-width: 85%;
+    margin: 10px auto 20px;
+}
+
+.js-differentColor {
+    background-color: rgba(92, 209, 199, 0.911);
+}

@@ -1,0 +1,53 @@
+.section__image {
+    width: 200px;
+    box-shadow: 3px 4px 10px 1px black;
+    display: block;
+    margin: 15px auto;
+}
+
+.section {
+    background-color: white;
+    color: rgb(44, 44, 44);
+    padding: 15px;
+    margin: 20px auto;
+    box-shadow: 3px 4px 10px 1px black;
+    border-radius: 10px;
+    line-height: 1.5;
+}
+
+.section__paragraph {
+    margin: 8px;
+}
+
+.section__header {
+    text-align: center;
+    padding: 10px;
+    margin: 10px auto;
+    text-shadow: -3px 2px 2px #ccc;
+}
+
+.section__subheader {
+    text-align: center;
+    padding: 10px;
+    margin: 5px auto;
+    text-shadow: -3px 2px 2px #ccc;
+}
+
+.span {
+    font-size: 0.6em;
+}
+
+.section__button {
+    margin: 25px auto;
+    padding: 15px;
+    cursor: pointer;
+    display: block;
+}
+
+.section__button:focus {
+    outline: 1.5px dashed black;
+}
+
+.js-showHide {
+    visibility: hidden;
+}

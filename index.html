@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kim jestem i dlaczego (jeszcze) nie programistką?</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/body.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/tableContainer.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body class="body">
+    <nav>
+        <ul class="navigation">
+            <li class="navigation__item">
+                <a class="navigation__link" href="#o-mnie">O mnie</a>
+            </li>
+            <li>
+                <a class="navigation__link" href="#dlaczego">Dlaczego nie programistką?</a>
+            </li>
+            <li>
+                <a class="navigation__link" href="#po-godzinach">Po godzinach</a>
+            </li>
+            <li>
+                <a class="navigation__link" href="#punkty-widokowe">Punkty widokowe</a>
+            </li>
+            <li>
+                <a class="navigation__link" href="#zmien-kolorystyke">Zmień kolorystykę</a>
+            </li>
+        </ul>
+    </nav>
+    <section class="section">
+        <h1 id="kim-jestem" class="section__header">Kim jestem i dlaczego <span class="span">(jeszcze)</span> nie
+            programistką?
+        </h1>
+    </section>
+    <section class="section">
+        <h2 id="o-mnie" class="section__subheader">Coś o mnie</h2>
+        <p class="section__paragraph">Cześć! Jestem <strong>Emilia</strong> i na tej stronie postaram się odpowiedzieć
+            na tytułowe pytanie.
+        </p>
+        <img class="section__image" src="https://i.ibb.co/BcspWBr/14590064-1119603921409997-6045806939601294043-o.jpg"
+            alt="Emi">
+        <button class="section__button js-showHidePictureButton">Ukryj zdjęcie</button>
+    </section>
+    <section class="section">
+        <h2 id="dlaczego" class="section__subheader">Otóż... dlaczego?</h2>
+        <p class="section__paragraph">Skończyłam farmację, jednak po półrocznym stażu w aptece otwartej wiedziałam, że
+            nie jest to miejsce
+            dla mnie. Aktualnie pracuję w aptece szpitalnej, ale czuję się tam trochę jak tester oprogramowania, bo
+            w
+            każdej wolniejszej chwili wiszę na telefonie z twórcami naszego programu i zastanawiamy się, jak
+            naprawić w
+            nim jakieś błędy lub jakie nowe funkcjonalności by się w nim przydały, aby usprawnić naszą pracę.</p>
+        <p class="section__paragraph">Zapragnęłam umieć stworzyć coś <em>od nowa</em>, zrozumieć, jak to wszystko działa
+            i w tym momencie
+            trafiłam na <strong>YouCode</strong>. Mam nadzieję, że mój <i>słomiany zapał</i> pozwoli mi skończyć
+            kurs
+            <strong>FrontEnd Developer od postaw</strong>.</p>
+        <p class="section__paragraph">W wolnych chwilach robię zdjęcia, kocham muzykę, koty, języki obce (miałam na
+            myśli np. angielski,
+            ale może JavaScript też skradnie mi serce), punkty widokowe, długie spacery i patrzeć w niebo. Niestety
+            kocham też słodycze.
+        </p>
+    </section>
+    <section class="section">
+        <h2 id="punkty-widokowe" class="section__subheader">Punkty widokowe</h2>
+        <div class="tableContainer">
+            <table class="table">
+                <caption class="table__caption">Wybrane "punkty widokowe", które odwiedziłam</caption>
+                <tbody>
+                    <thead class="table__header">
+                        <tr>
+                            <th class="table__cell" scope="col">Miejsce</th>
+                            <th class="table__cell" scope="col">Kraj</th>
+                            <th class="table__cell" scope="col">Wysokość</th>
+                        </tr>
+                    </thead>
+                    <tr class="table__row">
+                        <th class="table__cell" scope="row">Empire State Building</th>
+                        <td class="table__cell">USA</td>
+                        <td class="table__cell">443,2 m</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell" scope="row">Wieża Eiffla</th>
+                        <td class="table__cell">Francja</td>
+                        <td class="table__cell">324 m</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell" scope="row">Zawrat</th>
+                        <td class="table__cell">Polska</td>
+                        <td class="table__cell">2159 m n.p.m.</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell" scope="row">Moraine Lake</th>
+                        <td class="table__cell">Kanada</td>
+                        <td class="table__cell">1885 m n.p.m.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <section class="section">
+        <h2 id="zmien-kolorystyke" class="section__subheader">Zmień kolorystykę strony</h2>
+        <button class="section__button js-changeColorButton">Brzydka kolorystyka - chcę inną</button>
+    </section>
+    </main>
+    <footer class="footer">
+        Daj znać, co myślisz o tej stronie! Napisz do mnie: <a class="footer__link"
+            href="mailto:emilia.sieniawska@gmail.com">emilia.sieniawska@gmail.com</a>
+    </footer>
+</body>
+
+</html>

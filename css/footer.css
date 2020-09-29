@@ -1,0 +1,27 @@
+.footer {
+    text-align: center;
+    font-size: 0.8em;
+    background-color: #bbb;
+    padding: 10px;
+    margin-top: 40px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.footer__link {
+    font-weight: 700;
+    color: rgb(43, 42, 42);
+    text-decoration: none;
+}
+
+.footer__link:focus {
+    outline: 1.5px dashed black;
+}
+
+.footer__link:hover {
+    color: white;
+}
+
+.footer__link:active {
+    color: grey;
+}

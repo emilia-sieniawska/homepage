@@ -1,0 +1,24 @@
+.navigation {
+    text-align: center;
+    list-style-type: none;
+    list-style-position: outside;
+    margin-left: -3%;
+}
+
+.navigation__link {
+    font-weight: 700;
+    color: rgb(43, 42, 42);
+    text-decoration: none;
+}
+
+.navigation__link:focus {
+    outline: 1.5px dashed black;
+}
+
+.navigation__link:hover {
+    color: white;
+}
+
+.navigation__link:active {
+    color: grey;
+}

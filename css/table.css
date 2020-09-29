@@ -1,0 +1,51 @@
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table__caption {
+    outline: 1px solid rgb(92, 53, 124);
+    padding: 10px;
+}
+
+.table__cell {
+    padding: 10px;
+    text-align: center;
+    line-height: 1.5;
+    border: 1px solid rgb(92, 53, 124);
+    border-width: 0 0 1px;
+}
+
+.js-tableCellSecondColor {
+    padding: 10px;
+    text-align: center;
+    line-height: 1.5;
+    border: 1px solid rgb(27, 71, 71);
+    border-width: 0 0 1px;
+}
+
+.table__header {
+    background-color: rgb(92, 53, 124);
+    color: white;
+}
+
+.js-tableHeaderSecondColor {
+    background-color: rgb(27, 71, 71);
+    color: white;
+}
+
+.table__row:nth-child(even) {
+    background-color: #ddd;
+}
+
+.js-tableRowSecondColor:nth-child(even) {
+    background-color: #ddd;
+}
+
+.table__row:hover {
+    background-color: rgb(205, 164, 238);
+}
+
+.js-tableRowSecondColor:hover {
+    background-color: rgb(164, 238, 219);
+}
