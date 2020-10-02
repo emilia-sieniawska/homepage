@@ -1,4 +1,6 @@
-console.log("Cześć ziomeczki! Trochę nie ogarniam tego JSa, mam nadzieję, że później będzie lepiej :)");
+const welcome = () => {
+    console.log("Cześć ziomeczki! Trochę nie ogarniam tego JSa, mam nadzieję, że później będzie lepiej :)");
+}
 
 let image = document.querySelector(".section__image");
 let showHidePictureButton = document.querySelector(".js-showHidePictureButton");
@@ -11,16 +13,19 @@ let tableCellList = document.querySelectorAll(".table__cell");
 let tableRowSecondColor = document.querySelector(".js-tableRowSecondColor");
 let tableRowList = document.querySelectorAll(".table__row");
 
-showHidePictureButton.addEventListener("click", () => {
+
+welcome();
+
+let onShowHidePictureClick = () => {
     image.classList.toggle("js-showHide");
     if (showHidePictureButton.innerText === "Ukryj zdjęcie") {
         showHidePictureButton.innerText = "Pokaż zdjęcie";
     } else {
         showHidePictureButton.innerText = "Ukryj zdjęcie";
     }
-});
+};
 
-changeColorButton.addEventListener("click", () => {
+let onChangeColorClick = () => {
     body.classList.toggle("js-differentColor");
     tableHeader.classList.toggle("js-tableHeaderSecondColor");
     tableCellList.forEach((tableCell) => {
@@ -29,4 +34,7 @@ changeColorButton.addEventListener("click", () => {
     tableRowList.forEach((tableRow) => {
         tableRow.classList.toggle("js-tableRowSecondColor");
     });
-});
+};
+
+showHidePictureButton.addEventListener("click", onShowHidePictureClick);
+changeColorButton.addEventListener("click", onChangeColorClick);
