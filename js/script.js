@@ -2,16 +2,16 @@ const welcome = () => {
     console.log("Cześć ziomeczki! Trochę nie ogarniam tego JSa, mam nadzieję, że później będzie lepiej :)");
 }
 
-let image = document.querySelector(".section__image");
-let showHidePictureButton = document.querySelector(".js-showHidePictureButton");
-let body = document.querySelector(".body");
-let changeColorButton = document.querySelector(".js-changeColorButton");
-let tableHeaderSecondColor = document.querySelector(".js-tableHeaderSecondColor");
-let tableCellSecondColor = document.querySelector(".js-tableCellSecondColor");
-let tableHeader = document.querySelector(".table__header");
-let tableCellList = document.querySelectorAll(".table__cell");
-let tableRowSecondColor = document.querySelector(".js-tableRowSecondColor");
-let tableRowList = document.querySelectorAll(".table__row");
+const image = document.querySelector(".section__image");
+const showHidePictureButton = document.querySelector(".js-showHidePictureButton");
+const body = document.querySelector(".body");
+const changeColorButton = document.querySelector(".js-changeColorButton");
+const tableHeaderSecondColor = document.querySelector(".js-tableHeaderSecondColor");
+const tableCellSecondColor = document.querySelector(".js-tableCellSecondColor");
+const tableHeader = document.querySelector(".table__header");
+const tableCellList = document.querySelectorAll(".table__cell");
+const tableRowSecondColor = document.querySelector(".js-tableRowSecondColor");
+const tableRowList = document.querySelectorAll(".table__row");
 
 
 
