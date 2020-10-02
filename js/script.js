@@ -33,9 +33,12 @@
         });
     };
 
+    const init = () => {
+        showHidePictureButton.addEventListener("click", onShowHidePictureClick);
+        changeColorButton.addEventListener("click", onChangeColorClick);
 
-    showHidePictureButton.addEventListener("click", onShowHidePictureClick);
-    changeColorButton.addEventListener("click", onChangeColorClick);
+        welcome();
+    }
 
-    welcome();
+    init();
 }
