@@ -14,9 +14,8 @@ let tableRowSecondColor = document.querySelector(".js-tableRowSecondColor");
 let tableRowList = document.querySelectorAll(".table__row");
 
 
-welcome();
 
-let onShowHidePictureClick = () => {
+const onShowHidePictureClick = () => {
     image.classList.toggle("js-showHide");
     if (showHidePictureButton.innerText === "Ukryj zdjęcie") {
         showHidePictureButton.innerText = "Pokaż zdjęcie";
@@ -25,7 +24,7 @@ let onShowHidePictureClick = () => {
     }
 };
 
-let onChangeColorClick = () => {
+const onChangeColorClick = () => {
     body.classList.toggle("js-differentColor");
     tableHeader.classList.toggle("js-tableHeaderSecondColor");
     tableCellList.forEach((tableCell) => {
@@ -36,5 +35,8 @@ let onChangeColorClick = () => {
     });
 };
 
+
 showHidePictureButton.addEventListener("click", onShowHidePictureClick);
 changeColorButton.addEventListener("click", onChangeColorClick);
+
+welcome();
